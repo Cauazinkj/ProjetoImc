@@ -22,7 +22,7 @@ public class Main {
 
         if (imc <  18.5)
         {
-            System.out.println("Sua massa corporal está abaixo da média");
+            System.out.println("Sua massa corporal está abaixo da média!");
         }
 
         else if (imc <= 24.9 && imc >= 18.5)
@@ -37,12 +37,12 @@ public class Main {
 
         else if (imc >= 30 && imc <= 39.9)
         {
-            System.out.println("Sua massa corporal está classificada no primeiro grau de obesidade, busque ajuda");
+            System.out.println("Sua massa corporal está classificada no primeiro grau de obesidade, busque ajuda!");
         }
 
         else if (imc >= 40)
         {
-            System.out.println("Você está com uma obesidade grave, busque ajuda imediatamente");
+            System.out.println("Você está com uma obesidade grave, busque ajuda imediatamente!");
         }
 
         else {
